@@ -6,7 +6,7 @@ stages:
       buildContext: .
       tag: web:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
-      registry: registry.ulaidao.com:35000
+      registry: 127.0.0.1:34527
 - name: Deploy
   steps:
   - applyYamlConfig:
